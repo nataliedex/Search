@@ -1,0 +1,38 @@
+<%-include ("partials/header") %>
+
+
+<%-include ("partials/google") %>
+
+    <div id="container"> 
+        <div>
+            <h2>Advanced Search</h2>
+            <p>Find pages with...</p>
+            <form action="https://www.google.com/search">
+                <div class="form-row">
+                    <p>all these words:</p>
+                    <input class="input" type="text" name="as_q">
+                </div>
+                <div class="form-row">
+                    <p>this exact word or phrase:</p>
+                    <input class="input" type="text" name="as_epq">
+                </div>
+                <div class="form-row">
+                    <p>any of these words:</p>
+                    <input class="input" type="text" name="as_oq">
+                </div>
+                <div class="form-row">
+                    <p>none of these words:</p>
+                    <input class="input" type="text" name="as_eq">
+                </div>
+                <div>
+                    <input type="submit" value="Advanced Search" class="advanced_button">
+                </div>
+            </form>
+            
+        </div>
+        
+    </div>
+
+</body>
+
+<%-include ("partials/footer") %>
